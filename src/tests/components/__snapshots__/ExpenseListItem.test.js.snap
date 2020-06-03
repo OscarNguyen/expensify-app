@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListItem with fixture data 1`] = `
+<div>
+  <Link
+    to={
+      Object {
+        "pathname": "/edit/1",
+      }
+    }
+  >
+    <h3>
+      iphone 11 pro
+    </h3>
+  </Link>
+  <p>
+    5999
+    -
+    0
+     
+  </p>
+</div>
+`;
