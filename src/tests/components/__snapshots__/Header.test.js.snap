@@ -11,7 +11,7 @@ exports[`should render Header correctly 1`] = `
     to="/"
   >
     <p>
-      Dashboard
+      Login Page
     </p>
   </NavLink>
   <NavLink
@@ -30,5 +30,18 @@ exports[`should render Header correctly 1`] = `
       Help
     </p>
   </NavLink>
+  <NavLink
+    activeClassName="is-active"
+    to="/dashboard"
+  >
+    <p>
+      Dashboard Page
+    </p>
+  </NavLink>
+  <button
+    onClick={[Function]}
+  >
+    Logout
+  </button>
 </header>
 `;
